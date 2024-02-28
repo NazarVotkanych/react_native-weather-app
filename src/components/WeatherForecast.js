@@ -1,4 +1,3 @@
-// WeatherForecast.js
 import React from 'react';
 import { View, Text, Image, ScrollView } from 'react-native';
 import { theme } from '../theme';

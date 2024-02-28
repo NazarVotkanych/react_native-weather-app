@@ -1,4 +1,3 @@
-// WeatherLocation.js
 import React from 'react';
 import { View, Text, Pressable } from 'react-native';
 import { MapPinIcon } from 'react-native-heroicons/solid';

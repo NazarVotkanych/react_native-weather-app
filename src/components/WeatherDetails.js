@@ -1,4 +1,3 @@
-// WeatherDetails.js
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 import WeatherInfoItem from './WeatherInfoItem';
@@ -35,8 +34,8 @@ const WeatherDetails = ({ location, current, weather }) => {
           justifyContent: 'center'
         }}>
         <Image
-          source={weatherImages[current?.condition?.text || 'other']}
-          // source={{uri: 'https:'+current?.condition?.icon}}
+          // source={weatherImages[current?.condition?.text || 'other']}
+          source={{uri: 'https:'+current?.condition?.icon}}
           style={{
             width: 130,
             height: 130 }}
